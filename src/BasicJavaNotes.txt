@@ -1,0 +1,75 @@
+details
+documents
+
+blueprint  =>
+
+class
+=> class is blueprint of a program
+=> collection of variables and/or methods
+
+Class is a virtual entity and Object is realtime entity.
+
+object
+What is an Object in Java?
+Object is an instance of a class.
+
+Why we need an Object in Java?
+To access variables and methods of a class, we need an Object of that class.
+
+
+How to create an Object in Java?
+Object is instance of class,
+Object is used to access variables and methods of a class, we need object of that class
+
+
+variable
+What are variables in Java?
+It is a container used for storing some value;
+It can hold value of a  particular type.
+Variables are containers for storing data values.
+
+
+method
+Methods are block of codes that perform a specific task. Methods allows to us reuse the code
+All methods in java must belong to the class
+
+
+datatype
+What are data types in Java and why we need them?
+In Java, data types specify the size and type of values that can be stored in a variable.
+
+
+
+package
+=> Similar type of classes we club together in a package.
+
+
+keywords
+what are keywords in Java?
+Java have reserved few words for specific purpose which are called as keywords.
+
+
+
+
+access modifiers
+
+
+compiler
+=> checks for the rules of java language.
+
+
+interpreter
+
+
+syntax => rules for a language
+compile time error
+
+2 BHK  => 2 Bedroom 1 Hall 1 Kitchen
+
+college   => arts + sci
+
+
+1000 java classes
+
+inheritance  150
+abstraction  100

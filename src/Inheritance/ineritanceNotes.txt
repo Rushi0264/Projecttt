@@ -1,0 +1,16 @@
+What is inheritance?
+It is a process through which child class can access methods or variables of parent class.
+
+Why should we use Inheritance?
+We avoid code duplication, or we can do code reusability.
+
+How to achieve inheritance?
+We use 'extends' keywords to establish the parent-child relationship between classes.
+
+Types of inheritance?
+1. Single inheritance :
+2. Multilevel inheritance :
+3. Hierarchical inheritance :
+4. Hybrid inheritance :
+5. Multiple inheritance :
+

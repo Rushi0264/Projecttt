@@ -1,0 +1,26 @@
+What are arrays in Java?
+
+
+Why we need array in Java?
+
+
+    int[] intArray = new  int[10];
+
+index
+0 1 2 3 4 5 6 7 8 9
+
+size   => 10
+first index = 0
+last index = 9 (size - 1)
+
+int[] intArray = new  int[20];     size = 20
+first index = 0
+last index = 19 (size - 1)
+
+what are loops and why we need them?
+=>It's a block of code which will repeat until certain condition are true
+
+types of loops
+1)For loop
+2)While loop
+3)do while loop
