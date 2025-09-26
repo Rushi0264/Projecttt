@@ -7,6 +7,15 @@ interface Bank{
 
 class SBI implements Bank{
     private double balance;
+    private String holderName;
+
+    public String getHolderName() {
+        return holderName;
+    }
+
+    public void setHolderName(String holderName) {
+        this.holderName = holderName;
+    }
 
     public double getBalance(){
         return balance;
@@ -46,9 +55,21 @@ class SBI implements Bank{
 public class TestBankAccount {
     public static void main(String[] args) {
         SBI obj = new SBI();
+        obj.setHolderName("Rushikesh");
         obj.setBalance(5000);
+        System.out.println("Account Holder Name : "+obj.getHolderName());
         System.out.println("Account balance is : "+obj.getBalance());
         obj.deposit(100);
         obj.withdraw(4000);
+        System.out.println("--------------------------------------------------------------------------");
+
+        SBI obj1 = new SBI();
+        obj1.setHolderName("Shubham");
+        obj1.setBalance(10000);
+        System.out.println("Account Holder Name : "+obj1.getHolderName());
+        System.out.println("Account balance is : "+obj1.getBalance());
+        obj1.deposit(100);
+        obj1.withdraw(4000);
+        System.out.println("--------------------------------------------------------------------------");
     }
 }
