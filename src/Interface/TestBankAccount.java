@@ -7,6 +7,7 @@ interface Bank{
 
 class SBI implements Bank{
     private double balance;
+    private long accNum;
     private String holderName;
 
     public String getHolderName() {
@@ -15,6 +16,14 @@ class SBI implements Bank{
 
     public void setHolderName(String holderName) {
         this.holderName = holderName;
+    }
+
+    public long getAccNum() {
+        return accNum;
+    }
+
+    public void setAccNum(long accNum) {
+        this.accNum = accNum;
     }
 
     public double getBalance(){
