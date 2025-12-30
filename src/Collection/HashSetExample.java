@@ -1,0 +1,13 @@
+package Collection;
+
+import java.util.HashSet;
+
+public class HashSetExample {
+    public static void main(String[] args) {
+        HashSet<String> set = new HashSet<>();
+        set.add("Java");
+        set.add("Python");
+        set.add("Java");
+        System.out.println("Languages : "+set);
+    }
+}
