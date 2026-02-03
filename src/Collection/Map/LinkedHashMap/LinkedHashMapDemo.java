@@ -1,0 +1,19 @@
+package Collection.Map.LinkedHashMap;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class LinkedHashMapDemo {
+    public static void main(String[] args) {
+        LinkedHashMap<String, Integer> linkedHashMap = new LinkedHashMap<>();
+        //HashMap<String, Integer> hashMap = new HashMap<>();
+        linkedHashMap.put("Orange",10);
+        linkedHashMap.put("Apple",20);
+        linkedHashMap.put("Guava",13);
+        for (Map.Entry<String, Integer> entry : linkedHashMap.entrySet()){
+            System.out.println(entry.getKey()+", "+entry.getValue());
+            //System.out.println(entry);
+        }
+    }
+}
